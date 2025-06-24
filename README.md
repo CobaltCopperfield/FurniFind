@@ -119,6 +119,7 @@ The system recognizes 25 different wood quality attributes:
 
 Request body:
 
+```bash
 {
   "woodType": "Oak",
   "thickness": 2.5,
@@ -126,14 +127,15 @@ Request body:
   "height": 12.0,
   "quality": "Strong"
 }
-
+```
 
 Response:
 
+```bash
 {
   "data": "Dining Table"
 }
-
+```
 
 ## Model Performance
 
